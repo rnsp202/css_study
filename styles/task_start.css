@@ -24,3 +24,28 @@ header a {}
 /* 헤더끝 */
 /* ver2 */
 .box {}
+.box a {}
+.box .contents {}
+.box .contents p {}
+.box .img {}
+/* ver3 */
+main {}
+main aside {}
+main aside h2 {}
+main aside h2 ul {}
+main aside h2 ul li {}
+main section {}
+main section .top {}
+main section .top h1 {}
+main section .top p {}
+main section article {}
+main section article p {}
+/* ver4 */
+#t {}
+#t thead {}
+#t thead tr {}
+#t thead tr th {}
+#t tbody {}
+#t tbody tr {}
+#t tbody tr th {}
+#t tfoot {}
