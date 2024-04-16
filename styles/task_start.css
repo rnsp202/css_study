@@ -1,4 +1,5 @@
 /* 첫번째 div */
+body {background-color: rgb(252, 204, 192);}
 body > h1 {background-color: lemonchiffon; color: crimson;}
 .test_box {background-color: bisque;}
 .test_box h1 {color: rgb(219, 100, 124);}
@@ -7,38 +8,38 @@ body > h1 {background-color: lemonchiffon; color: crimson;}
 .test_box h4 {color: rgb(151, 83, 97);}
 .test_box #title1 {color: rgb(151, 104, 204);}
 .test_box #title2 {color: rgb(105, 74, 139);}
-.test_box p {color: rgb(219, 100, 124);}
-.test_box blockquote {color: rgb(219, 100, 124);}
-.test_box p span {color: rgb(219, 100, 124);}
-.test_box p q {color: rgb(219, 100, 124);}
+.test_box p {color: #e0644e;}
+.test_box blockquote {background-color: lightpink; color: #be6353;}
+.test_box p span {color: #965449;}
+.test_box p q {color: rgb(204, 22, 58);}
 .test_box p sup {color: rgb(219, 100, 124);}
-.test_box p sub {color: rgb(219, 100, 124);}
-.test_box .test1 {color: rgb(219, 100, 124);}
+.test_box p sub {color: rgb(245, 113, 140);}
+.test_box .test1 {color: rgb(235, 65, 99);}
 .test_box .test2 {color: rgb(219, 100, 124);}
-.test_box .test3_test {color: rgb(219, 100, 124);}
-.test_box .test4_test {color: rgb(219, 100, 124);}
-.test_box #wrap {color: rgb(219, 100, 124);}
+.test_box .test3 {color: rgb(219, 100, 124);}
+.test_box .test4 {color: rgb(219, 100, 124);}
+.test_box #wrap {color: rgb(207, 73, 20);}
 hr {color: rgb(219, 100, 124);} /* 헤더시작 */
 header {background-color: bisque;}
-header h1 {color: rgb(219, 100, 124);}
+header h1 {color: rgb(175, 16, 48);}
 header a {color: rgb(219, 100, 124);}
 /* 헤더끝 */
 /* ver2 */
 .box {background-color: bisque;}
 .box a {color: rgb(219, 100, 124);}
-.box .contents {color: rgb(219, 100, 124);}
-.box .contents p {color: rgb(219, 100, 124);}
-.box .img {color: rgb(219, 100, 124);}
+.box .contents {color: rgb(206, 68, 96);}
+.box .contents p {color: rgb(209, 61, 91);}
+.box .img {color: rgb(121, 31, 49);}
 /* ver3 */
 main {background-color: bisque;}
 main aside {color: rgb(219, 100, 124);}
 main aside h2 {color: rgb(219, 100, 124);}
-main aside h2 ul {background-color: rgb(219, 158, 122);}
-main aside h2 ul li {color: rgb(219, 100, 124);}
-main aside h2 ul li a {color: rgb(219, 100, 124);}
+main aside ul {background-color: rgb(231, 193, 170);}
+main aside ul li {color: rgb(219, 100, 124);}
+main aside ul li a {color: rgb(219, 100, 124);}
 main section {color: rgb(219, 100, 124);}
 main section .top {color: rgb(219, 100, 124);}
-main section .top h1 {color: rgb(219, 100, 124);}
+main section .top h1 {color: rgb(219, 74, 103);}
 main section .top p {color: rgb(219, 100, 124);}
 main section article {color: rgb(219, 100, 124);}
 main section article p {color: rgb(219, 100, 124);}

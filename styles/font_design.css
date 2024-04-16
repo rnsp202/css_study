@@ -1,5 +1,6 @@
 main {
     font-family: "Noto Sans KR", "맑은 고딕", sans-serif;
+    font-size: 20px;
 }
 main .first {}
 main .first h1 {
@@ -8,7 +9,7 @@ main .first h1 {
 main .first p {
     font-family: "Nanum Pen Script", sans-serif;
 }
-main .first p em {}
+main .first p em {/* font-size: 1.0rem;*/}
 main .second {}
 main .second h1 {
     font-family: "Nanum Myeongjo", serif;
@@ -16,3 +17,8 @@ main .second h1 {
 main .second p {
     font-family: "Single Day", serif;
 }
+/* 공통 */
+main section h1 {font-size: 2.188rem;}
+main section p {font-size: 1.063rem;}
+main .first h1,
+main .second h1 {font-size: 2.188rem;}
