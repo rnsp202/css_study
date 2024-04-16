@@ -1,0 +1,41 @@
+main {
+    background-color: #FFF;
+    font-family: "Noto Sans KR", sans-serif;
+    text-align: center;
+}
+main h1 {
+    font-weight: 700;
+    font-size: 3.125rem;
+    padding-bottom: 14px;
+}
+main > p {
+    font-weight: 200;
+    font-size: 1rem;
+    letter-spacing: -0.2px;
+    padding-bottom: 40px;
+}
+main .contents_bg {
+    background-color: #F5F5F5;
+    padding-top: 40px;
+    /* margin-top: 40px; */
+}
+main .contents_bg > p {
+    font-size: 1rem;
+    line-height: 30px;
+    letter-spacing: -0.2px;
+    /* margin-bottom: 40px; */
+    padding-bottom: 30px;
+}
+main .contents_bg .vision {background-color: #F5F5F5;}
+main .contents_bg .vision h2 {
+    font-size: 1.875rem;
+    color: #36B4E5;
+    /* margin-top: 40px; */
+    /* margin-bottom: 10px; */
+    padding-top: 80px;
+    padding-bottom: 30px;
+}
+main .contents_bg .vision p {
+    font-size: 2.25rem;
+    line-height: 45px;
+}
