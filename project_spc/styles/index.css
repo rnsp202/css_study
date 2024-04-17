@@ -17,6 +17,7 @@ main > p {
 main .contents_bg {
     background-color: #F5F5F5;
     padding-top: 40px;
+    padding-bottom: 40px;
     /* margin-top: 40px; */
 }
 main .contents_bg > p {
@@ -27,7 +28,7 @@ main .contents_bg > p {
     padding-bottom: 30px;
 }
 main .contents_bg .vision {background-color: #F5F5F5;}
-main .contents_bg .vision h2 {
+main .contents_bg .vision h2, main .contents_bg .goal h2 {
     font-size: 1.875rem;
     color: #36B4E5;
     /* margin-top: 40px; */
@@ -38,4 +39,38 @@ main .contents_bg .vision h2 {
 main .contents_bg .vision p {
     font-size: 2.25rem;
     line-height: 45px;
+}
+main .contents_bg .goal {}
+main .contents_bg .goal #sandwich {}
+main .contents_bg .goal #sandwich div {
+    display: inline-block;
+    width: 250px; height: 250px;
+    padding-top: 67px;
+    border-radius: 50%;
+    /* figma drop shadow == css box-shadow */
+    /* box-shadow:x축 y축 blur값 색상; */
+    box-shadow: 0px 0px 6px rgb(0,0,0,0.25);
+    margin-left: -18px;
+}
+main .contents_bg .goal #sandwich div h3 {
+    font-size: 1.563rem; color: #FFF;
+    letter-spacing: -0.2px;
+}
+main .contents_bg .goal #sandwich div p {
+    padding-bottom: 20px;
+}
+main .contents_bg .goal #sandwich div p img {
+    width: 60px; height: 60px;
+}
+main .contents_bg .goal #sandwich #sdwc1 {
+    background-color: #36B4E5;
+}
+main .contents_bg .goal #sandwich #sdwc2 {
+    background-color: #FFF;
+}
+main .contents_bg .goal #sandwich #sdwc2 h3 {
+    color: black;
+}
+main .contents_bg .goal #sandwich #sdwc3 {
+    background-color: #F3C300;
 }
