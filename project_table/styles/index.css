@@ -1,0 +1,80 @@
+/* 초록색 코드 #03c75a */
+main {
+    background-color: #FFF;
+    font-family: "Noto Sans KR", sans-serif;
+    letter-spacing: -0.4px;
+}
+main h1, main h1 em {
+    font-weight: 700;
+    font-size: 3.125rem;
+    line-height: 60px;
+    padding-bottom: 48px;
+}
+main em {
+    color: #03c75a;
+}
+main > p , main > p .user{
+    font-size: 1.5rem;
+    line-height: 1.2;
+    padding-bottom: 48px;
+}
+main .inf > p {
+    font-size: 1.25rem;
+    line-height: 1.7;
+    padding-bottom: 50px;
+}
+main .inf > p a {
+    color: #808080;
+    text-decoration: underline;
+}
+main .tableset {}
+main .tableset .wth {
+    font-size: 1.563rem;
+    line-height: 1.875;
+    padding-bottom: 22px;
+}
+main .tableset .wth span {
+    font-size: 1.25rem;
+    line-height: 1.5;
+}
+main .tableset table {
+    border-top: 3px solid #000;
+    width: 930px;
+}
+main .tableset table thead {
+    background-color: #f5f5f5;
+}
+main .tableset table thead tr {}
+main .tableset table thead tr th {}
+main .tableset table tbody {
+    /* border-top: 1px solid #aaa;
+    border-bottom: 1px solid #aaa; */
+    border: 1px solid #aaa;
+    border-left: 0; border-right: 0;
+}
+main .tableset table .align {text-align: center;}
+main .tableset table tr * {
+    padding-top: 15px; padding-bottom: 15px;
+}
+main .tableset table tbody tr {}
+main .tableset table tbody tr td {}
+main .tableset .basket {
+    text-align: right;
+    font-size: 1.25rem;
+    line-height: 1.5;
+}
+main .tableset .basket a {}
+main .btm {
+    text-align: center;
+}
+main .btm a {
+    display: inline-block;
+    background-color: #03c75a;
+    width: 300px; height: 64px;
+    border-radius: 30px;
+    font-size: 24px;
+    line-height: 1.5;
+    color: #fff;
+    padding-top: 14px;
+    margin: 7.5px;
+}

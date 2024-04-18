@@ -28,7 +28,9 @@ main .contents_bg > p {
     padding-bottom: 30px;
 }
 main .contents_bg .vision {background-color: #F5F5F5;}
-main .contents_bg .vision h2, main .contents_bg .goal h2 {
+main .contents_bg .vision h2, 
+main .contents_bg .goal h2,
+main .contents_bg .strategy h2 {
     font-size: 1.875rem;
     color: #36B4E5;
     /* margin-top: 40px; */
@@ -73,4 +75,27 @@ main .contents_bg .goal #sandwich #sdwc2 h3 {
 }
 main .contents_bg .goal #sandwich #sdwc3 {
     background-color: #F3C300;
+}
+main .contents_bg .strategy {}
+main .contents_bg .strategy #strategy_wrap {}
+main .contents_bg .strategy #strategy_wrap div {
+    display: inline-block;
+    background-color: #eee;
+    width: 210px; height: 210px;
+    padding-top: 80px;
+    border-radius: 50%;
+    /* figma drop shadow == css box-shadow */
+    /* box-shadow:x축 y축 blur값 색상; */
+    box-shadow: 0px 0px 6px rgb(0,0,0,0.25);
+    margin-left: -10px;
+}
+main .contents_bg .strategy #strategy_wrap div h3 {
+    display: inline-block;
+    font-size: 1.315rem;
+    font-weight: 600; letter-spacing: -0.2px;
+    margin-bottom: 10px;
+}
+main .contents_bg .strategy #strategy_wrap div > p {
+    color: #797979; font-weight: 300;
+    font-size: 1.400rem;
 }
