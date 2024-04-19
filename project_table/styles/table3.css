@@ -1,0 +1,87 @@
+/* 특징색 #C10000 */
+main {
+    background-color: #fff;
+    font-family: "Noto Sans KR", sans-serif;
+    letter-spacing: -0.4px;
+    margin: 48px;
+    text-align: center;
+}
+main h1 {
+    font-weight: 700;
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+main h1 span {
+    font-weight: 700;
+    font-size: 3rem;
+    color: #C10000;
+}
+main > p {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 38px;
+}
+main .ts {
+    display: inline-block;
+    text-align: center;
+}
+main .ts .tt {
+    width: 926px; height: 314px;
+    border: 2px solid #000;
+    border-left: 0; border-right: 0;
+    padding: 14px 0;
+}
+main .ts .tt thead {
+    background-color: #F5F5F5;
+}
+main .ts .tt thead tr th {
+    padding: 14px 0;
+    text-align: center;
+}
+main .ts .tt tbody {}
+main .ts .tt tbody tr td {
+    border-top: 1px solid #D9D9D9;
+}
+main .ts .tt thead tr th:nth-child(2), 
+main .ts .tt thead tr th:nth-child(3), 
+main .ts .tt thead tr th:nth-child(4), 
+main .ts .tt tbody tr td:nth-child(2), 
+main .ts .tt tbody tr td:nth-child(3), 
+main .ts .tt tbody tr td:nth-child(4) {
+    border-left: 1px solid #D9D9D9;
+}
+main .ts .tt tbody tr td a {
+    display: inline-block;
+    width: 150px; height: 35px;
+    background-color: #fff;
+    border: 2px solid #C10000;
+    color: #C10000;
+    padding: 6px 0;
+    border-radius: 20px;
+}
+main .ts .tt tbody tr td,
+main .ts .tt thead tr th {
+    width: 182px;
+}
+main .ts .tt tbody tr td:nth-child(2),
+main .ts .tt thead tr th:nth-child(2) {
+    width: 366px;
+}
+main .ts .tt tbody tr td:nth-child(2) {}
+main .list {
+    margin-top: 38px;
+}
+main .list {display: block;}
+main .list a {
+    display: inline-block;
+    width: 24; height: 24;
+    background-color: #fff;
+    line-height: 24px;
+    padding: 0.5px 7.5px;
+    text-align: center;
+    color: #717171;
+}
+main .list a:nth-child(1) {
+    background-color: #C10000;
+    color: #fff;
+}

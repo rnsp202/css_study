@@ -1,0 +1,82 @@
+/* 초록색 코드 #03c75a */
+main {
+    background-color: #FFF;
+    font-family: "Noto Sans KR", sans-serif;
+    letter-spacing: -0.4px;
+    margin: 61px 51px;
+}
+main h1 {
+    font-size: 3.125rem;
+    line-height: 1.2;
+}
+main > p {
+    font-size: 1.5rem;
+    line-height: 1.8;
+    margin: 48px 0 36px;
+}
+main > p span {
+    font-weight: 700;
+    color: #03c75a;
+}
+main .ts {
+    margin-bottom: 92px;
+}
+main .ts .tt {
+    width: 769px;
+    border: 3px solid black;
+    border-left: 0; border-right: 0;
+    font-size: 1.125rem;
+    line-height: 1.35rem;
+    letter-spacing: -0.2px;
+}
+main .ts .tt tr th,
+main .ts .tt tr td {
+    padding: 20px 0 20px 14px;
+}
+main .ts .tt tr:nth-child(1) th {
+    padding-bottom: 58px;
+}
+main .ts .tt tr:nth-child(1) td {
+    padding-bottom: 47px;
+}
+main .ts .tt tr:nth-child(1),
+main .ts .tt tr:nth-child(2),
+main .ts .tt tr:nth-child(3),
+main .ts .tt tr:nth-child(4) {
+    border-bottom: 1px solid #ddd;
+}
+main .ts .tt tr th {
+    width: 167px; background-color: #f5f5f5;
+}
+main .ts .tt tr:nth-child(3) td,
+main .ts .tt tr:nth-child(4) td,
+main .ts .tt tr:nth-child(5) td {
+    font-weight: 700;
+}
+main .ts p {
+    font-size: 1.25rem;
+    line-height: 2.125rem;
+    margin-top: 5px;
+}
+main .ts p a {
+    text-decoration: underline;
+}
+main .btm {
+    margin-left: 242px;
+    width: 234px; height: 64px;
+    background-color: #03c75a;
+    border-radius: 30px;
+    text-align: center;
+}
+main .btm a {
+    display: inline-block;
+    /* padding: 20px 40px; */
+    color: #FFF;
+    font-size: 1.25rem;
+    letter-spacing: 0;
+    /* line-height: 1.5rem; */
+    line-height: 64px;
+}
+main .btm a em {
+    font-weight: 700;
+}
