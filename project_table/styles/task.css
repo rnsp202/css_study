@@ -1,0 +1,55 @@
+main {
+    font-family: "Noto Sans KR", sans-serif;
+    text-align: center;
+    margin: 30px 20px;
+    text-align: center;
+}
+main .tt {
+    display: inline-block;
+    background-color: #F8F8F8;
+    font-size: 1.25rem;
+    color: #555;
+    border-radius: 28px;
+}
+main .tt thead {
+    background-color: #f82157;
+}
+main .tt thead tr th {
+    padding: 20px 0;
+    font-size: 1.5rem;
+    text-align: center;
+    color: #fff;
+}
+main .tt thead tr th:nth-child(1) {
+    border-radius: 28px 0 0 0;
+}
+main .tt thead tr th:nth-child(5) {
+    border-radius: 0 28px 0 0 ;
+}
+main .tt thead tr th,
+main .tt tbody tr td {
+    border-right: 1px solid #fff;
+}
+main .tt tbody tr td:nth-child(1) {
+    text-align: left;
+    padding: 20px 45px 20px 20px;
+}
+main .tt tbody tr:nth-child(2) td {
+    font-weight: 700;
+    color: #f82157;
+}
+main .tt tbody tr:nth-child(2) {
+    border: 3px solid #f82157;
+}
+main .tt tbody tr td:nth-child(3),
+main .tt tbody tr td:nth-child(5),
+main .tt tbody tr td:nth-child(4) {
+    padding: 0 35px;
+}
+main .tt tbody tr td:nth-child(2) {
+    padding: 0 50px;
+}
+main .tt tbody tr:nth-child(2) td, 
+main .tt tbody tr:nth-child(4) td {
+    background-color: #EFEFEF;
+}
