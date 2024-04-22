@@ -6,7 +6,7 @@ p,ul,ol,li,dl,dt,dd,table,tr,td,th,thead,tbody,tfoot,
 div,header,nav,aside,article,section,footer,figure,
 address,blockquote,video,iframe,hr,
 span,em,strong,q,sub,sup,details,figcaption,summary,time,s,del,code,mark,img {
-    font-size: 1.0rem; font-weight: normal;
+    font-size: 1.0em; font-weight: normal;
     font-style: normal;
     line-height: 1.0; margin: 0; padding: 0;
 }
