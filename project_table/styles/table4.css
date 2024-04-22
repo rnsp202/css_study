@@ -1,0 +1,61 @@
+body {
+    background-color: #F5F5F5;
+}
+main {
+    font-family: "Noto Sans KR", sans-serif;
+    text-align: center;
+    padding: 60px 56px;
+}
+main h1 {
+    font-size: 1.5rem;
+    line-height: 2.25rem;
+    letter-spacing: -0.4px;
+    color: #888888;
+}
+main .tt {
+    display: inline-block;
+    margin-top: 64px;
+}
+main .tt h2 {font-weight: 700;
+    font-size: 1.5rem;
+    line-height: 2.25rem;
+    letter-spacing: -0.4px;
+    margin-bottom: 9px;}
+main .tt .t1 {
+    width: 747px; height: 381px;
+    font-size: 1.25em;
+    line-height: 1.5em;
+    border: 1px solid #AAAAAA;
+    text-align: center;
+}
+main .tt .t1 tbody tr th {
+    border: 1px solid #AAAAAA;
+    background-color: #00155E;
+    font-weight: 700;
+    color: #fff;
+    text-align: center;
+}
+main .tt .t1 tbody tr td {
+    border: 1px solid #AAAAAA;
+}
+main .tt .t1 tbody tr:nth-child(2) td:nth-child(1), 
+main .tt .t1 tbody tr:nth-child(4) td:nth-child(1), 
+main .tt .t1 tbody tr:nth-child(6) td:nth-child(1) {
+    font-weight: 700;
+    letter-spacing: -0.2px;
+    padding: 42px 61px;
+}
+main .tt .t1 tbody tr .time {
+    padding: 15px 34px;
+}
+main .tt .t1 tbody tr .dong {
+    padding: 0 46px;
+    color: #888888;
+}
+main .tt .t1 tbody tr:nth-child(2) td:nth-child(4) {
+    font-weight: 700;
+    padding: 130px 65px;
+}
+main .tt .t1 tbody tr:nth-child(1) th {
+    padding: 16px 0;
+}
