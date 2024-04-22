@@ -1,0 +1,57 @@
+main {
+    background-color: #fff;
+    font-family: "Noto Sans KR", sans-serif;
+    margin: 100px 262px;
+}
+main h1 {
+    font-weight: 900;
+    font-size: 4.375rem;
+    letter-spacing: -0.2px;
+}
+main p {
+    font-size: 1.25rem;
+    margin-top: 40px;
+    margin-bottom: 57px;
+}
+main form fieldset {
+    display: inline-block;
+    width: 500px;
+}
+main form fieldset dl dt,
+main form fieldset h2 {
+    font-size: 1.875rem;
+    font-weight: 700;
+    margin-bottom: 18px;
+}
+main form fieldset h2 {margin-bottom: 32px;}
+main #search_frm fieldset dl dd input[required],
+main form fieldset .btn #login,
+main form fieldset .btn #sign_google {
+    display: inline-block;
+    width: 500px; height: 45px;
+    border: 1px solid #AAAAAA;
+    border-radius: 8px;
+}
+main form fieldset h2 {margin-bottom: 32px;}
+main #search_frm fieldset dl dd input[required] {
+    margin-bottom: 38px;
+}
+main form fieldset div #login {
+    background-color: #222222;
+    font-weight: 700;
+    color: #fff;
+    margin-bottom: 18px;
+}
+main form fieldset div #sign_google {
+    background-color: #fff;
+    font-weight: 700;
+}
+main .join_link {
+    margin-top: 62px;
+    font-size: 1rem;
+    padding-left: 100px;
+    letter-spacing: -0.2px;
+}
+main .join_link span {
+    font-weight: 700;
+}
