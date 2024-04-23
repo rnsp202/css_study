@@ -69,3 +69,26 @@
 * 요소의 너비와 높이
 * 절대값px, 상대값%, 화면 상대값 vw, vh
 * 상대값 처리는 0~100% 사이 값만 사용한다.
+## form요소와 속성
+### `<form action="#" method=""></form>`
+* action : 입력된 정보를 제출하는 최종 주소(URL)
+* method : method의 값은 post, get으로 사용
+* post : 양식 본문을 action URL에 그대로 전송
+* get : 양식 본문을 URL 뒤 ? 에 이어붙여서 전송
+### `<input type="" name="">`
+* type : input의 속성
+* name : input의 위치나 속성을 알수있게 해주는 이름(필수)
+* readonly : 읽기 전용 속성
+* autofocus, autocomplete : 창이 열리면 누르지 않아도 커서가 떠 있도록 해줌, 자동검색완성
+* value : 값 입력 전 기본 값
+* placeholder : 값 입력 전 떠있는 글자
+* value와 placeholder의 차이점 : 후자는 입력하려고 누르면 사라짐
+* maxlength : 글자 개수의 최대값 정하기
+### `<textarea></textarea>`
+* rows, cols : 입력창 길이 조절
+* 사용용도 및 주의사항 : 안내사항 등을 보여줄 때, 안에 들어가있을 내용은 코드 내에서의 공백도 다 들어감.
+### input의 입력양식과 선택양식
+* text, url 등의 사용자가 직접 입력 가능한 입력양식
+* radio 등의 사용자의 입력이 아닌 선택으로 들어가는 선택양식
+* `name` : 입력양식(데이터구분용), 선택양식(데이터 구분(개별데이터x, 그룹데이터구분용))
+* `value` : 입력양식(초기값), 선택양식(개별데이터구분용)
