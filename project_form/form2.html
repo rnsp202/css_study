@@ -19,15 +19,17 @@
             <a href="#">SIGN UP</a>
         </div>
         <form action="#" method="post" id="sign_in_frm">
-            <legend class="skip">로그인</legend>
-            <div id="sign">
-                <input type="text" placeholder="Username" name="user_id" required>
-                <input type="password" placeholder="Password" name="user_pwd" required>
-            </div>
-            <div class="ch_stay">
-                <input type="checkbox" name="staySign" value="staySignY" id="staySign"><label for="staySign">stay signed in</label>
-            </div>
-            <button type="submit" id="login">SIGN IN</button>
+            <fieldset class="inGroup">
+                <legend class="skip">로그인</legend>
+                <div id="sign">
+                    <input type="text" placeholder="Username" name="user_id" required>
+                    <input type="password" placeholder="Password" name="user_pwd" required>
+                </div>
+                <div class="ch_stay">
+                    <input type="checkbox" name="staySign" value="staySignY" id="staySign"><label for="staySign">stay signed in</label>
+                </div>
+                <button type="submit" id="login">SIGN IN</button>
+            </fieldset>
         </form>
         <a href="#" class="fg_pwd">Forget Password?</a>
     </main>
