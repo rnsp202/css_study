@@ -58,7 +58,7 @@
                     <dd><button type="button" id="dupli_con_email">중복확인</button></dd>
                     <dt>휴대폰<span>*</span></dt>
                     <dd>
-                        <select name="user_news_agency">
+                        <select name="news_agency_user">
                             <option value="kt">KT</option>
                             <option value="lg">LG</option>
                             <option value="skt">SKT</option>
@@ -66,7 +66,7 @@
                             <option value="lg_thft">LG알뜰폰</option>
                             <option value="skt_thft">SKT알뜰폰</option>
                         </select>
-                        <input type="number" name="user_phone" placeholder="숫자만 입력해주세요 예)01012345678" required>
+                        <input type="number" name="phone_user" placeholder="숫자만 입력해주세요 예)01012345678" required>
                     </dd>
                     <dd><button type="button" id="authentication_nb">인증번호받기</button></dd>
                     <dt>주소<span>*</span></dt>
@@ -84,11 +84,13 @@
                     <dd> </dd>
                     <dt>생년월일</dt>
                     <dd>
-                        <input type="number" name="user_bth_Y" placeholder="YYYY">
-                        <span>/</span>
-                        <input type="number" name="user_bth_M" placeholder="MM">
-                        <span>/</span>
-                        <input type="number" name="user_bth_D" placeholder="DD">
+                        <div class="birth">
+                            <input type="number" name="Y_user_bth" placeholder="YYYY">
+                            <span>/</span>
+                            <input type="number" name="M_user_bth" placeholder="MM">
+                            <span>/</span>
+                            <input type="number" name="D_user_bth" placeholder="DD">
+                        </div>
                     </dd>
                     <dd> </dd>
                 </dl>

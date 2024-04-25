@@ -1,0 +1,154 @@
+body {
+    background-color: #fff;
+}
+main {
+    font-family: "Noto Sans KR", sans-serif;
+    width: 360px;
+    margin: 41px auto;
+    letter-spacing: -0.4px;
+    text-align: left;
+}
+main h1 {
+    font-weight: 700;
+    margin-bottom: 24px;
+}
+main .sns_login {
+    text-align: center;
+}
+main .sns_login p {
+    font-size: 0.625rem;
+    color: #777777;
+    margin-bottom: 15px;
+}
+main .sns_login .sns_icon {
+    margin-bottom: 24px;
+}
+main .sns_login .sns_icon a {
+    margin: 0 10px;
+}
+main .sns_login .sns_icon a img {}
+main #sign {
+    border-top: 1px solid #D9D9D9;
+    margin: 24px 0px ;
+    padding-top: 24px;
+}
+main #sign #sign_in dl dd span {
+    display: inline-block;
+    width: 10px;
+    padding-left: 1.5px;
+}
+main #sign #sign_in dl dt,
+main #sign #con_agree h2 {
+    font-weight: 600;
+    font-size: 0.875rem;
+    margin-bottom: 14px;
+}
+main #sign #sign_in dl dd {
+    font-size: 0.813rem;
+    margin-bottom: 14px;
+    color: #999;
+}
+main #sign #sign_in dl dd input[name=email_user] {
+    width: 170px; 
+}
+main #sign #sign_in dl dd select[name=email_tail] {
+    width: 170px; float: right;
+    appearance: none;
+    background-image: url(../img/arrow_drop_down.png);
+    background-repeat: no-repeat;
+    background-position: right center;
+}
+main #sign #sign_in dl dd #email_ctf,
+main #sign #sign_in dl dd input[name^=user] {
+    width: 100%;
+    margin-bottom: 24px;
+}
+main #sign #sign_in dl dd input[name^=user],
+main #sign #sign_in dl dd input[name=email_user],
+main #sign #sign_in dl dd select[name=email_tail] {
+    font-size: 0.875rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    height: 36px;
+    padding-left: 8px;
+}
+main #sign #sign_in dl dd #email_ctf {
+    height: 50px;
+    background-color: #F5F5F5;
+    font-size: 1.125rem;
+    font-weight: 700;
+    color: #CCCCCC;
+    letter-spacing: -0.4px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+main #sign #con_agree ul {
+    border: 1px solid #e5e5e5;
+    padding: 16px;
+}
+main #sign #con_agree ul li:nth-child(4),
+main #sign #con_agree ul li:nth-child(5),
+main #sign #con_agree ul li:nth-child(6),
+main #sign #con_agree ul li:nth-child(7),
+main #sign #con_agree ul li:nth-child(8) {
+    margin-top: 24px;
+}
+main #sign #con_agree ul li:nth-child(3) {
+    margin-top: 16px;
+}
+main #sign #con_agree ul li:first-child {
+    margin-top: 0;
+    padding-bottom: 16px;
+    border-bottom: 1px solid #e5e5e5;
+    font-weight: 700;
+}
+main #sign #con_agree ul li label[for*=agree] {
+    background-image: url(../img/agree_unchecked.png);
+    background-repeat: no-repeat;
+    padding-left: 22px;
+    font-size: 0.813rem;
+    background-position: left center;
+}
+main #sign #con_agree ul li input[name=con_agree]:checked + label {
+    background-image: url(../img/agree_checked.png);
+}
+main #sign #con_agree ul li input[name=con_agree] {
+    display: none;
+}
+main #sign #con_agree ul li span {
+    color: #999999;
+    font-size: 0.625rem;
+    padding-left: 3px;
+}
+main #sign #con_agree ul li:nth-child(3) span,
+main #sign #con_agree ul li:nth-child(4) span,
+main #sign #con_agree ul li:nth-child(5) span {
+    color: #00B5EE;
+}
+main #sign #con_agree ul li a img {
+    float: right;
+    padding-right: 10px;
+}
+main .sign_up {
+    margin-top: 33px;
+}
+main .sign_up #sign_up_go {
+    width: 100%; height: 45px;
+    background-color: #00B5EE;
+    color: #fff;
+    border: 0;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-weight: 700;
+}
+main .sign_up a p {
+    margin-top: 20px;
+    font-size: 0.75rem;
+    text-align: center;
+    color: #777;
+}
+main .sign_up a p span {
+    padding-left: 10px;
+    font-weight: 700;
+    text-decoration: underline;
+}

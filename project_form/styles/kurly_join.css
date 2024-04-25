@@ -1,13 +1,8 @@
-html {scrollbar-width: 5px;;scrollbar-color: #D9D9D9 #FFF;}
-        /* Opera */
-        html::-o-scrollbar {width: 5px;}/*스크롤바 크기*/
-        html::-o-scrollbar-thumb {background-color: #222;border-radius: 5px;}/*스크롤 드래그바*/
-        html::-o-scrollbar-thumb:hover {background-color: #555;}
-        /* ::-webkit- 크롬, 사파리, 엣지 브라우저 동작용(브라우저 엔진) */
-        ::-webkit-scrollbar {width: 10px;}/*스크롤바 크기*/
-        ::-webkit-scrollbar-track {box-shadow: inset 0 0 10px #fff;}/*스크롤바 배경*/
-        ::-webkit-scrollbar-thumb {background-color: #222;border-radius: 5px;}/*스크롤 드래그바*/
-        ::-webkit-scrollbar-thumb:hover {background-color: #fff;}
+html {scrollbar-width: 5px; }
+    ::-webkit-scrollbar {width: 10px;}/*스크롤바 크기*/
+    ::-webkit-scrollbar-track {box-shadow: inset 0 0 5px #fff;}/*스크롤바 배경*/
+    ::-webkit-scrollbar-thumb {background-color: #D9D9D9;border-radius: 5px;}/*스크롤 드래그바*/
+    ::-webkit-scrollbar-thumb:hover {background-color: #9E00B7;}
 body {
     background-color:#F5F5F5
 }
@@ -28,12 +23,12 @@ main .law {
     font-size: 0.75rem;
     text-align: left;
     padding: 10px 115px 10px 10px;
+    border: 3px solid #fff;
     overflow: auto;
 }
 main .law h2 {
     padding-bottom: 38px;
 }
-main .law h3 {}
 main .law h2,
 main .law h3,
 main .law p {
@@ -44,6 +39,7 @@ main .law p:nth-child(7) {
     padding: 18px 0;
 }
 main #join_frm {
+    margin-top: 40px;
     /* display: inline-block; */
     width: 100%; height: 468px;
     /* text-align: center; */
@@ -53,13 +49,18 @@ main #join_frm .user_info dl {}
 main #join_frm .user_info dl dt {
     display: inline-block;
     width: 156px; height: 40px;
-    background-color: aqua;
+    /* background-color: aqua; */
     float: left;
     text-align: left;
+    line-height: 38px;
 }
-main #join_frm .user_info dl dt span {}
+main #join_frm .user_info dl dt span {
+    color: #FF0000;
+}
+main #join_frm .user_info dl dt,
 main #join_frm .user_info dl dd {
     height: 40px;
+    margin-top: 10px;
 }
 main #join_frm .user_info dl dd:nth-child(3n+2) {
     display: inline-block;
@@ -68,21 +69,117 @@ main #join_frm .user_info dl dd:nth-child(3n+2) {
 main #join_frm .user_info dl dd:nth-child(3n) {
     display: inline-block;
     width: 156px;
-    background-color: burlywood;
+    /* background-color: burlywood; */
     text-align: right;
     float: right;
 }
-main #join_frm .user_info dl dd input[name*=user] {
-    /* width: 100%; */
+main #join_frm .user_info dl dd #search_add {
+    width: 100%; height: 40px;
 }
-main #join_frm .user_info dl dd button {}
+main #join_frm .user_info dl dd input[name^=user] {
+    width: 100%; height: 40px;
+}
+main #join_frm .user_info dl dd button[id^=dupli_con] {
+    border: 0;
+    border-radius: 5px;
+    background-color: #9E00B7;
+    color: #fff;
+}
+main #join_frm .user_info dl dd #authentication_nb {
+    border: 0;
+    border-radius: 5px;
+    background-color: #CCC;
+    color: #fff;
+}
+main #join_frm .user_info dl dd button {
+    width: 120px; height: 40px;
+}
+main #join_frm .user_info dl dd input[name^=user],
+main #join_frm .user_info dl dd input[name*=phone],
+main #join_frm .user_info dl dd select {
+    border: 1px solid #AAAAAA;
+    background-color: #fff;
+    border-radius: 5px;
+    padding-left: 7px;
+}
 main #join_frm .user_info dl dd #authentication_nb {}
-main #join_frm .user_info dl dd #search_add {}
-main #join_frm .user_info dl dd span {}
-main #join_frm .user_info dl dd input[name=gender] {}
-main #join_frm .user_info dl dd label {}
-main #join_frm .user_info dl dd input[name=gender]:checked + label {}
-main #join_frm .user_info dl dd input[name*=user_bth] {}
-main #join_frm .user_info dl dd:last-child {}
-main #join_frm .user_info .sign_up {}
-main #join_frm .user_info .sign_up #sign_up_go {}
+main #join_frm .user_info dl dd #search_add {
+    color: #000;
+    font-size: 0.875rem;
+    font-weight: 500;
+    letter-spacing: -0.2px;
+}
+main #join_frm .user_info dl dt:nth-child(19){
+    height: 64px;
+    line-height: 64px;
+}
+main #join_frm .user_info dl dd:nth-child(20) {
+    text-align: left;
+    height: 64px;
+}
+main #join_frm .user_info dl dd span {
+    font-size: 0.875rem;
+    padding-top: 5px;
+    color: #AAA;
+}
+main #join_frm .user_info dl dd select[name*=agency] {
+    width: 50px; height: 40px;
+    appearance: none;
+    background-image: url(../img/arrow_drop_down.svg);
+    background-repeat: no-repeat;
+    background-position: right center;
+}
+main #join_frm .user_info dl dd select[name*=agency] option {}
+main #join_frm .user_info dl dd input[type=number]::-webkit-outer-spin-button,
+main #join_frm .user_info dl dd input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+main #join_frm .user_info dl dd input[name*=phone] {
+    width: 245px; height: 40px;
+}
+main #join_frm .user_info dl dd input[name=gender] {
+    display: none;
+}
+main #join_frm .user_info dl dd:nth-child(23) {
+    align-content: center;
+    padding-bottom: 10px;
+}
+main #join_frm .user_info dl dd label {
+    display: inline-block;
+    height: 15px;
+    margin-left: 10px;
+    background-image: url(../img/gender_unchecked.svg);
+    background-repeat: no-repeat;
+    padding-left: 20px;
+}
+main #join_frm .user_info dl dd input[name=gender]:checked + label {
+    background-image: url(../img/gender_checked.png);
+    background-repeat: no-repeat;
+    padding-left: 20px;
+}
+main #join_frm .user_info dl dd .birth {
+    padding-top: 10px;
+}
+main #join_frm .user_info dl dd .birth input[name*=user_bth] {
+    width: 60px;
+    border: 0;
+    text-align: center;
+}
+main #join_frm .user_info dl dd #search_add,
+main #join_frm .user_info dl dd:nth-child(26) {
+    background-color: #fff;
+    border:1px solid #9E00B7;
+    border-radius: 5px;
+}
+main #join_frm .user_info .sign_up {
+    margin-top: 54px;
+}
+main #join_frm .user_info .sign_up #sign_up_go {
+    width: 200px; height: 40px;
+    background-color: #9E00B7;
+    color: #FFF;
+    border: 0;
+    border-radius: 10px;
+    font-size: 0.875rem;
+}
