@@ -1,0 +1,173 @@
+main {}
+/* 배경 공통&개별값 */
+main .bg {
+    background-position: center;
+    background-repeat: no-repeat;
+}
+main .bg1 {
+    background-image: url(../img/bg.jpg);
+    height: 1000px;
+}
+main .bg2 {
+    background-image: url(../img/bg_2.jpg);
+    height: 500px;
+}
+/* -------------------------1. 표지 */
+main .bg1 section,
+main .bg2 section {
+    width: 1250px;
+    /* background-color: hsl(180, 71%, 70%, 30%) ; */
+    margin: 0 auto;
+}
+main .bg1 section h1 {
+}
+main .bg1 section h1 a {}
+main .bg1 section h1 a img {}
+main .bg1 section h2 {
+    margin: 166px 0 30px;
+    color: #fff;
+    font-size: 4.375rem;
+    line-height: 120%;
+    letter-spacing: -0.2px;
+    font-weight: 300;
+    text-align: center;
+}
+main .bg1 section h2 em {
+    font-weight: 700;
+}
+main .bg1 section .sponsor_link::after {
+    content:'';
+    background-image: url(../img/btn_right_arrow.svg);
+    background-repeat: no-repeat;
+    width: 32px; height: 32px;
+    display: inline-block;
+}
+main .bg1 section .sponsor_link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* CSS 회전각도 단위 deg */
+    background:linear-gradient(90deg, #FE9300, #FF7300) ;
+    /* gradient 적용을 위해 background통합속성을 사용했을 때 해당 요소 추가 배경이미지 꾸미기를 원한다면 가상선택자(before, after)를 활용하는 것을 권장한다. */
+    width: 410px; height: 70px;
+    border: 0;
+    border-radius: 50px;
+    margin: 0 auto;
+    /* text-align: center; */
+    color: #fff;
+    font-size: 2.125rem;
+    /* line-height: 70px; */
+    padding-bottom: 3px;
+    font-weight: 600;
+}
+main .bg1 section .sponsor_qaa::before {
+    content: '';
+    background-image: url(../img/icon_sms.svg);
+    padding-right: 5px;
+    background-repeat: no-repeat;
+    width: 24px; height: 24px;
+    display: inline-block;
+}
+main .bg1 section .sponsor_qaa::after {
+    content: '';
+    background-image: url(../img/btn_right_arrow.svg);
+    background-repeat: no-repeat;
+    background-size: 16px;
+    width: 16px; height: 16px;
+    display: inline-block;
+    padding-left: 5px;
+}
+main .bg1 section .sponsor_qaa {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:  140px 0 0 ;
+    width: 316px; height: 44px;
+    background-color: #050505;
+    color: #fff;
+    /* line-height: 44px; */
+    /* text-align: center; */
+    border-radius: 50px;
+    float: right;
+}
+main .bg2 section {
+    padding-top: 48px;
+}
+main .bg2 section #quiz {
+    display: inline-block;
+    width: 450px; height: 394px;
+    /* background-color: hsl(60, 56%, 91%, 20%); */
+}
+main .bg2 section #quiz #wqf {
+    color: #fff;
+}
+main .bg2 section #quiz #wqf h1 {
+    font-size: 3.438rem;
+    font-weight: 500;
+    text-align: center;
+    padding-right: 30px;
+    margin-bottom: 20px;
+}
+main .bg2 section #quiz #wqf ul {
+    width: 100%; height: 240px;
+    font-size: 1.25rem;
+    /* background-color: hsl(60, 56%, 91%, 20%); */
+}
+main .bg2 section #quiz #wqf ul li:first-child {}
+main .bg2 section #quiz #wqf ul li {
+    margin-bottom: 20px;
+}
+main .bg2 section #quiz #wqf ul li input[name=percent] {
+    display: none;
+}
+main .bg2 section #quiz #wqf ul li label {
+    display: block;
+    width: 86px; height: 32px;
+    background-image: url(../img/quiz_unchecked.svg);
+    background-repeat: no-repeat;
+    padding-left: 40px;
+    line-height: 32px;
+}
+main .bg2 section #quiz #wqf ul li input[name=percent]:checked +label {
+    background-image: url(../img/quiz_checked.svg);
+}
+main .bg2 section #quiz #wqf button {
+    margin-top: 20px;
+    width: 100%; height: 40px;
+    background-color: #050505;
+    border: 0;
+    border-radius: 50px;
+    color: #fff;
+    font-size: 1rem;
+}
+main .bg2 section .quiz_parti {
+    display: inline-block;
+    float: right;
+    margin: 72px 0 0;
+}
+main .bg2 section .quiz_parti .qpti_tt {
+    width: 540px; height: 233px;
+    background-color: #fff;
+    border-radius: 10px;
+}
+main .bg2 section .quiz_parti .qpti_tt h2 {
+    width: 100%; height: 68px; background-color: #FF7300;
+    color: #fff; font-size: 1.625rem; font-weight: 500;
+    line-height: 68px;
+    text-align: center;
+    border-radius: 10px 10px 0 0;
+}
+main .bg2 section .quiz_parti .qpti_tt .content {}
+main .bg2 section .quiz_parti .qpti_tt .content em {
+    font-size: 4rem;
+}
+main .bg2 section .quiz_parti .qpti_tt .content span {
+    font-size: 2.125rem;
+}
+main .bg2 section .quiz_parti .qpti_tt .content strong {
+    font-size: 2.125rem;
+}
+main .bg2 section .quiz_parti p {
+    color: #fff; float: right;
+    margin-top: 24px; font-size: 1.25rem;
+}
