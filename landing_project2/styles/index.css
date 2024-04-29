@@ -1,0 +1,106 @@
+/* 공통, 배경 */
+main {
+    font-family: 'Noto Sans KR', sans-serif;
+}
+main .bg {
+    text-align: center;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+main .bg1 {
+    height: 1050px;
+    background-image: url(../img/bg01_1.jpg);
+}
+main .bg2 {
+    height: 1016px;
+    background-image: url(../img/bg02.jpg);
+}
+main .bg section {
+    width: 1250px;
+    margin: 0 auto;
+    /* background-color: hsl(180, 71%, 70%, 30%); */
+}
+/* -------------------------------1page */
+main .bg1 section h1 {
+    text-align: left;
+}
+main .bg1 section h2 {
+    width: 849.27px;
+    margin: 116px auto 0;
+}
+main .bg1 section #app_dwld_btn::after {
+    content: '';
+    background-image: url(../img/icon_pennib.svg);
+    background-repeat: no-repeat;
+    width: 34px; height: 45px;
+    display: inline-block;
+    padding-bottom: 6px;
+}
+main .bg1 section #app_dwld_btn {
+    margin: 17px auto 0;
+    font-size: 2.5rem;
+    font-weight: 700;
+    line-height: 78px;
+    width: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FA6462;
+    color: #fff;
+    border: 0;
+    border-radius: 60px;
+}
+main .bg1 section p::before {
+    content: '';
+    background-image: url(../img/icon_up.svg);
+    background-repeat: no-repeat;
+    width: 42px; height: 40px;
+    display: inline-block;
+}
+main .bg1 section p {
+    color: #FA6462;
+    font-size: 1.75rem;
+    font-weight: 700;
+    line-height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* -------------------------------2page */
+main .bg2 section {
+    color: #fff;
+    background-image: url(../img/bg02_2.png);
+    width: 1250px; height: 1016px;
+    display: inline-block;
+    background-repeat: no-repeat;
+}
+main .bg2 section h1 {
+    margin-top: 40px;
+    display: inline-block;
+    font-size: 6rem;
+    font-weight: 700;
+    float: left;
+    text-align: left;
+
+}
+main .bg2 section .funding_intro {
+    float: right;
+    margin-top: 98px;
+    font-weight: 500;
+    font-size: 3rem;
+    width: 845px;
+    border-top: 3px solid #fff;
+    padding-top: 15px;
+    
+}
+main .bg2 section .funding_intro p {
+    line-height: 70px;
+    text-align: right;
+}
+main .bg2 section .funding_intro h2 {
+    text-align: right;
+    line-height: 185px;
+    font-size: 8rem;
+    font-weight: 700;
+    color: #FA6462;
+}
