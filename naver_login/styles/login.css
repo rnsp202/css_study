@@ -1,0 +1,96 @@
+#app {
+    width: 375px; height: 812px;
+    margin: 30px auto;
+    border: 1px solid black;
+    padding-top: 42px;
+}
+/* =============top */
+#app .top {
+    width: 100%; height: 56px;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    padding: 0 16px;
+}
+#app .top a {}
+#app .top a img {
+    display: inline-block;
+    overflow: hidden;
+    width: 24px; height: 24px;
+    background-color: gray;
+}
+/* ====================main */
+#app h1 {
+    /* display: flex; */
+    width: 135px; height: 36px;
+    margin:42px auto 21px;
+    background-color: gray;
+    /* justify-content: center; */
+}
+#app .keyboard_g {
+    width: 100%; height: 32px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: flex-end;
+    padding: 0 16px;
+    margin: 0 0 16px;
+}
+#app .keyboard_g a {
+    font-size: 0.75rem;
+    display: flex;
+    align-items: flex-start;
+}
+#app .keyboard_g a img {
+    width: 16px; height: 16px;
+    background-color: gray;
+    margin-left: 6px;
+}
+#app #login_frm {}
+#app #login_frm .login_g {}
+#app #login_frm .login_g ul {
+    margin: 0 16px;
+    width: 343px; height: 112px;
+    border: 1px solid black;
+    border-radius: 5px;
+    overflow: hidden;
+}
+#app #login_frm .login_g ul li {}
+#app #login_frm .login_g ul li:first-child {
+    border-bottom: 1px solid black;;
+}
+#app #login_frm .login_g ul li input {
+    width: 343px; height: 56px;
+    border: none; 
+    padding-left: 56px;
+}
+#app #login_frm .login_g .btn {
+    margin: 18px 16px 30px;
+}
+#app #login_frm .login_g .btn #login_btn {
+    width: 343px; height: 56px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+/* =========로그인 오류 시 출력 메세지(기본 숨김) */
+#app #login_frm .login_g .error_massage {
+    margin: 18px 16px 0;
+    font-size: 0.75rem;
+    display: none;
+}
+/* =============================찾기 가입 */
+#app .search_join {
+    border: 1px solid black;
+    width: 100%; height: 15px;
+    display: flex;
+    justify-content: center;
+}
+#app .search_join a {
+    font-size: 0.75rem;
+    display: flex;
+}
+#app .search_join a::after {
+    content: ''; display: flex;
+    width: 1px; height: 10px; background-color: black;
+    margin: 0 8px;
+}
+#app .search_join a:last-child::after {display: none;}
