@@ -125,3 +125,12 @@
 * **align-items** : 교차축의 아이템이 1줄일 경우 정렬방법
 * 아이템 되는 자식 안에 속성 `flex:1;`하면 칸들이 자동으로 일정한 크기로 변함
 * 각 아이템에 `order:(숫자);` : 원래 순서 상관없이 order 순서대로 정렬
+## Font-Awesome
+### font-awesome 전용 속성 값
+* `.fa { font-weight: 600; font-family: 'Font Awesome 5 Free', 'Font Awesome 5 Brnads', 'Font Awesome 5 solid';}`
+### css-font-awesome
+* 1. font-awesome CDN  link  태그로 준비한다.
+* 2. font-awesome 전용의 font-family와 weight를 설정한다.
+* 3. font-awesome 적용이 될 태그를 준비한다.
+* 4. 준비한 3번 태그에 가상선택자 (after or before)를 작성한다.
+* 5. 가상선택자에 content속성을 입력해서 Unicode를 삽입한다.

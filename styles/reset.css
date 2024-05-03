@@ -17,3 +17,8 @@ th {text-align: left;}
 fieldset {border: 0;}
 .skip {display: none;}
 input, button, label {cursor: pointer;}
+/* font-awesome 전용 속성 값 */
+.fa {
+    font-weight: 600;
+    font-family: 'Font Awesome 5 Free', 'Font Awesome 5 Brnads', 'Font Awesome 5 solid';
+}

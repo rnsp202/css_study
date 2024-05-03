@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>position3 | css</title>
+    <link rel="stylesheet" href="./styles/reset.css">
+    <style>
+        /* position 속성, display:flex 속성 구분 개념 필수 */
+        /* position: 형제 요소와 중첩시킬 때, 태그 작성위치와 관계없이 새로운 위치로 디자인 배치 시킬 때 */
+        /* flex: 2개 이상의 형젱 요소를 추평, 수징, */
+        #popup {
+            width: 500px; height: 300px;
+            background-color: darkcyan;
+            position: fixed; right: 50px; bottom: 50px;
+            z-index: 500;
+        }
+        #wrap {
+            width: 1250px; margin: 0 auto;
+        }
+        #wrap header {
+            height: 100px; background-color: steelblue;
+            padding-top: 50px;
+            position: sticky; top: -50px;
+        }
+        #wrap header nav {
+            height: 50px; background-color: slateblue;
+        }
+        #wrap main {
+            height: 2000px; background-color: lightblue;
+            position: sticky; top: 100px;
+            /* stichy: 부모 스크롤이  y축으로 100vh 이상 적용될 경우 사용 */
+        }
+        #wrap footer {
+            height: 50px; background-color: cornflowerblue;
+        }
+    </style>
+</head>
+<body>
+    <div id="popup">popup</div>
+    <div id="wrap">
+        <header>
+            <nav>navigation bar</nav>
+        </header>
+        <main>main</main>
+        <footer>footer</footer>
+    </div>
+</body>
+</html>
