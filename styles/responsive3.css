@@ -1,0 +1,70 @@
+/* mobile 320px 설계시작 */
+@media screen and (min-width:320px) {
+    #app {
+        height: 568px;/* ios */
+        width: 100%;
+        margin: 0 auto; /* overflow: hidden; */
+        /*  min, max 최소 최대너비 기준값은 수정 작업의 간편화를 위해서 선언 가장 첫번째 위치에 몰아서 작성한다. */
+        max-width: 1000px; min-width: 320px;
+    }
+    #app .product {
+        background-color: rgb(255, 184, 184);
+        display: flex; flex-flow: row wrap;
+        justify-content: space-between;
+        padding: 0 16px ;
+    }
+    #app .product .item {
+        background-color: rgb(255, 242, 199);
+        width: calc((100% / 2) - 10px);
+        width: 139px;
+        height: 120px; margin: 0 0 20px;
+        font-size: 2.5rem; text-align: center;
+    }
+}/* min:320 */
+@media screen and (min-width:480px) {
+    /* @media 조건 2개 이상 작성 시-?먼저 선언된 속성:값 시분 변경되는 값만 작성 */
+    #app .product {background-color: rgb(224, 135, 135);}
+    #app .product .item {width: calc((100% / 3) - 10px);}
+}
+@media screen and (min-width:760px) {
+    #app .product .item {
+        width: calc((100% / 4) - 10px);
+    }
+}
+
+@media screen and (min-width:320px){
+    #app {
+        width: 100%; height: 568px;
+        margin: 0 auto;
+        max-width: 1000px; min-width: 320px;
+    }
+    #app .product {
+        background-color: coral;
+        display: flex; flex-flow: row wrap;
+        justify-content: space-between;
+        height: 100%; 
+        padding: 0 16px;
+    }
+    #app .product .item {
+        background-color: beige;
+        height: 120px;
+        width: calc((100% / 2) - 10px);
+        margin: 0 0 20px;
+        font-size: 1.5rem; text-align: center;
+    }
+}
+@media screen and (min-width:480px){
+    #app .product { background-color: rgb(255, 120, 110);}
+    #app .product  .item{
+        width: calc((100% / 3) - 10px);
+    }
+}
+@media screen and (min-width:760px){
+    #app .product {background-color: rgb(255, 135, 135);}
+    #app .product  .item{ height: 140px;
+        width: calc((100% / 4) - 10px);
+    }
+}
+@media screen and (min-width:1000px){
+    #app .product {background-color: rgb(255, 135, 155);}
+}

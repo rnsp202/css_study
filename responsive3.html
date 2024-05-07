@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles/reset.css">
+    <style>
+        #app {
+                height: 568px; width: 100%;
+                max-width: 1000px; min-width: 320px;
+                margin: 0 auto;
+            }
+            #app .product {
+                background-color: cadetblue;
+                display: flex; flex-flow: row wrap;
+                justify-content: space-between;
+                padding: 0 16px;
+            }
+            #app .product .item {
+                width: calc((100% / 4) - 10px);
+                background-color: lightblue;
+                margin: 0 0 20px;
+                display: flex; flex-flow: column wrap;
+                overflow: hidden;
+            }
+            #app .product .item img {}
+            #app .product .item em { 
+                color: aliceblue; padding: 12px 0;
+            }
+            #app .product .item span {color: rgb(139, 174, 204);}
+            #app .product .item span del {}
+            /*  ============media 조건 시각  */
+        @media screen and (max-width:760px) {
+            #app .product {
+                background-color: darkcyan;
+            }
+            #app .product .item {
+                width: calc((100% / 3) - 10px);
+            }
+        }
+        @media screen and (max-width:480px) {
+            #app .product {
+                background-color:darkslategrey;
+            }
+            #app .product .item {
+                width: calc((100% / 2) - 10px);
+            }
+        }
+    </style>
+<body>
+    <div id="app">
+        <div class="product">
+            <a href="#" class="item">
+                <img src="./images/box.jpg" alt="">
+                <em>상품명</em>
+                <span>12,000원<del>20,000</del></span>
+            </a>
+            <a href="#" class="item">
+                <img src="./images/box.jpg" alt="">
+                <em>상품명</em>
+                <span>12,000원<del>20,000</del></span>
+            </a>
+            <a href="#" class="item">
+                <img src="./images/box.jpg" alt="">
+                <em>상품명</em>
+                <span>12,000원<del>20,000</del></span>
+            </a>
+            <a href="#" class="item">
+                <img src="./images/box.jpg" alt="">
+                <em>상품명</em>
+                <span>12,000원<del>20,000</del></span>
+            </a>
+            <a href="#" class="item">
+                <img src="./images/box.jpg" alt="">
+                <em>상품명</em>
+                <span>12,000원<del>20,000</del></span>
+            </a>
+            <a href="#" class="item">
+                <img src="./images/box.jpg" alt="">
+                <em>상품명</em>
+                <span>12,000원<del>20,000</del></span>
+            </a>
+            <a href="#" class="item">
+                <img src="./images/box.jpg" alt="">
+                <em>상품명</em>
+                <span>12,000원<del>20,000</del></span>
+            </a>
+            <a href="#" class="item">
+                <img src="./images/box.jpg" alt="">
+                <em>상품명</em>
+                <span>12,000원<del>20,000</del></span>
+            </a>
+            <a href="#" class="item">
+                <img src="./images/box.jpg" alt="">
+                <em>상품명</em>
+                <span>12,000원<del>20,000</del></span>
+            </a>
+            <a href="#" class="item">
+                <img src="./images/box.jpg" alt="">
+                <em>상품명</em>
+                <span>12,000원<del>20,000</del></span>
+            </a>
+            <a href="#" class="item">
+                <img src="./images/box.jpg" alt="">
+                <em>상품명</em>
+                <span>12,000원<del>20,000</del></span>
+            </a>
+            <a href="#" class="item">
+                <img src="./images/box.jpg" alt="">
+                <em>상품명</em>
+                <span>12,000원<del>20,000</del></span>
+            </a>
+        </div>
+        <!-- <div class="product">
+            <a href="#" class="item">1</a>
+            <a href="#" class="item">2</a>
+            <a href="#" class="item">3</a>
+            <a href="#" class="item">4</a>
+            <a href="#" class="item">5</a>
+            <a href="#" class="item">6</a>
+            <a href="#" class="item">7</a>
+            <a href="#" class="item">8</a>
+            <a href="#" class="item">9</a>
+            <a href="#" class="item">10</a>
+            <a href="#" class="item">11</a>
+            <a href="#" class="item">12</a>
+        </div> -->
+    </div>
+</body>
+</head>
