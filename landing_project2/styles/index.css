@@ -192,41 +192,147 @@ main .bg6 section .text_b .img img {
 
 /* -------------------------------7page */
 main .bg7 section {
+    text-align: left;
 }
-main .bg7 section span {}
+main .bg7 section span {
+    display: inline-block;
+    width: 522px; height: 908px;
+    float: left;
+    padding: 96px 0 0 70px;
+
+}
 main .bg7 section span img {}
-main .bg7 section dl {}
-main .bg7 section dl dt {}
-main .bg7 section dl dd {}
+main .bg7 section dl {
+    display: inline-block;
+    padding-top: 189px;
+    padding-right: 70px;
+    float: right;
+}
+main .bg7 section dl dt {
+    margin: 0 0 60px;
+    font-size: 6rem;
+    line-height: 100px;
+    font-weight: 700;
+    color: #FA6462;
+}
+main .bg7 section dl dd {
+    display: inline-block;
+    padding: 40px 10px 10px 10px;
+    width: 550px;
+    letter-spacing: -0.2px;
+    border-top: 3px solid #FA6462;
+    font-size: 2.5rem; font-weight: 500;
+    line-height: 58px;
+    text-align: left;
+}
 
 /* -------------------------------8page */
-main .bg8 section {}
-main .bg8 section h2 {}
-main .bg8 section p {}
+main .bg8 section {
+    color: #fff;
+}
+main .bg8 section h2 {
+    font-size: 4rem; font-weight: 700;
+    /* padding: 24px; */
+    padding: 60px 0 30px;
+    border-bottom: 3px solid #3A6FF2;
+}
+main .bg8 section p {
+    margin-top: 30px;
+    font-size: 2rem; font-weight: 500;
+    line-height: 42px;
+}
 
 /* -------------------------------9page */
-main .bg9 section {}
-main .bg9 section h2 {}
-main .bg9 section p {}
+main .bg9 section {
+    text-align: center;
+}
+main .bg9 section h2 {
+    display: inline-block;
+    font-size: 4rem; font-weight: 700;
+    /* padding: 26px; */
+    padding: 320px 0 30px ;
+    color: #FA6462;
+    border-bottom: 3px solid #FA6462;
+    width: 620px;
+}
+main .bg9 section p {
+    padding-top: 30px;
+    font-size: 2.5rem; font-weight: 500;
+    line-height: 58px;
+}
 
 /* -------------------------------10page */
-main .bg10 section {}
-main .bg10 section span {}
+main .bg10 section {
+    padding-left: 70px;
+}
+main .bg10 section span {
+    display: flex;
+    float: left;
+    padding-top: 48px;
+}
 main .bg10 section span img {}
-main .bg10 section .text_b {}
-main .bg10 section .text_b h2 {}
-main .bg10 section .text_b h2 em {}
-main .bg10 section .text_b p {}
+main .bg10 section .text_b {
+    width: 580px; display: flex;
+    flex-flow: column nowrap;
+    float: right;
+    text-align: left;
+    padding: 128px 0 0 10px;
+}
+main .bg10 section .text_b h2 {
+    display: inline-block;
+    width: 450px;
+    line-height: 1.5;
+    font-size: 3rem; color: #fff;
+    font-weight: 600;
+    padding-bottom: 26px;
+    border-bottom: 3px solid #A89BF9;
+}
+main .bg10 section .text_b h2 em {
+    font-size: 4.5rem; font-weight: 700;
+    color: #A89BF9;
+}
+main .bg10 section .text_b p {
+    display: inline-block;
+    width: 620px;
+    color: #fff;
+    padding-top: 30px;
+    font-size: 1.5rem; font-weight: 500;
+    line-height: 58px;
+}
 
 /* -------------------------------11page */
-main .bg11 section {}
-main .bg11 section h2 {}
-main .bg11 section h2 em {}
-main .bg11 section h2 span {}
+main .bg11 section {
+    padding-top: 366px;
+}
+main .bg11 section h2 {
+    font-size: 5rem; font-weight: 700;
+    line-height: 1.2;
+    margin-bottom: 34px;
+}
+main .bg11 section h2 em {
+    font-weight: 700;
+    color: #FA6462;
+}
+main .bg11 section h2 span {
+    font-weight: 700;
+    color: #3A6FF2;
+}
 main .bg11 section .pinkbtn{}
 
 /* -------------------------------12page */
-main .bg12 section {}
-main .bg12 section h2 {}
-main .bg12 section p {}
-main .bg12 section .last {}
+main .bg12 section {
+    color: #4D4D4D;
+    text-align: left;
+    padding-top: 40px ;
+    padding-left: 106px ;
+}
+main .bg12 section h2 {
+    font-size: 1.5rem; font-weight: 600;
+}
+main .bg12 section p {
+    line-height: 2;
+    padding: 14px 0 ;
+}
+main .bg12 section #last {
+    border-top: 2px solid #979797;
+}

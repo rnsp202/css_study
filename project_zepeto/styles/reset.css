@@ -22,3 +22,4 @@ input, button, label {cursor: pointer;}
     font-weight: 600;
     font-family: 'Font Awesome 5 Free', 'Font Awesome 5 Brnads', 'Font Awesome 5 solid';
 }
+body {font-family: 'Noto Sans KR' sans-serif;}

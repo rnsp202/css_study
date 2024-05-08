@@ -1,0 +1,118 @@
+header {
+    width: 100%;
+    min-width: 320px; max-width: 1920px;
+    height: 80px; padding: 0 16px;
+    background-color: #000;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: space-between;
+}
+header h1 {
+    width: 301px; /* height: 40px; */
+    /* img 태그가 들어가는 부모요소에 크기 입력 시 꼴 필요한 경우가 아니면 width값만  입력하여 height값은 비율에 맞게 자동으로 설정되게 처리한다. */
+    /* border: 3px solid red; */
+}
+header h1 a {}
+header h1 a img {
+    width: 100%;
+}
+header nav {}
+header nav a {
+    color: #FFF; font-size: 1.25rem;
+    margin-right: 24px;
+}
+header nav a:last-child {margin: 0;}
+/* a 상태 성택자: (동적)마우스 올렸을 때 느낌 */
+header nav a:hover {color:#bbb;}
+header .snb {
+    display: flex;
+}
+header .snb a:first-child {
+    color: #fff; border:  2px solid #fff;
+    padding: 5px 10px; border-radius: 5px;
+    line-height: 39px; margin-right: 24px;
+}
+header .snb a:first-child:hover {
+    /* border-color: #ff0; */
+}
+header .snb a:last-child {
+    display: inline-block;
+    width: 36px;
+}
+header .snb a img {width: 100%;} filter:invert(1)
+header .snb a img {}
+main {}
+main .visual {
+    /* width: 100%;  */
+    overflow: hidden;
+    height: 720px;
+    position: relative;
+    /* text-align: center; */
+}
+main .visual video {
+    width: 100%;
+}
+main .visual .visual_title {
+    position: absolute; left: 0; top: 234px;
+    /* 겹치는 형제요소 디자인 작업을 위한 absolute */
+    /* 1. 겹치는 대상에 absolute 설정 후 부모 확인을 위해 왼쪽 탑 초기값 설정 */
+    /* 2. 배치된 위치가 원하는 부모 위치가 아닐 때 -> 원하는 부모니 */
+    /*  */
+    width: 100%;
+    text-align: center;
+}
+main .visual .visual_title h2 {
+    font-size: 3rem;
+    font-weight: 700; color: #fff;
+    line-height: 150%;
+    margin-bottom: 30px;
+}
+main .visual .visual_title .start_link {
+    display: inline-block;
+    width: 160px;  background-color: #000;
+    border-radius: 10px;
+    color: #FFF;
+    line-height: 54px;
+}
+main .visual .visual_title .start_link:hover {
+    border-radius: 20px;
+}
+main .creater {
+    width: 1300px;
+    margin: 150px auto 0;
+    text-align: center;
+}
+main .creater h2 {
+    font-size: 3rem;
+    font-weight: 700;
+}
+main .creater > p {
+    font-size: 1.25rem;
+    line-height: 150%;
+    margin: 55px 0;
+}
+main .creater span {
+    display: inline-block;
+    width: 697px; margin: 0 auto 55px;
+}
+main .creater span img {
+    width: 100%;
+}
+main .creater .studio {
+    display: flex;
+    flex-flow: row nowrap;
+    /* margin-top: 55px; */
+}
+main .creater .studio dl {
+    display: inline-block;
+    text-align: center;
+    width: calc(100% / 3);
+}
+main .creater .studio dl dt {
+    font-size: 2rem;font-weight: 700;
+}
+main .creater .studio dl dd {
+    font-size: 1.25rem;
+    padding-top: 18px;
+}

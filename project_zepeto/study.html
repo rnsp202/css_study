@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=\, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles/reset.css">
+    <style>
+        header {
+            height: 80px;
+            width: 100%;
+            min-width: 320px;
+            background-color: #000;
+            display: flex;
+            flex-flow: row nowrap;
+            justify-content: space-between;
+            padding: 0 16px;
+        }
+        header h1 {}
+        header h1 a {}
+        header h1 a img {
+            display: inline-block;
+            width: 301px; /* height:45px ;*/
+        }
+        header nav {}
+        header nav a {
+            color: #fff;
+            font-size: 1.25rem;
+        }
+        header nav a:hover {color: #bbb;}
+        header .snb {}
+        header .snb a {
+            color: #fff;
+        }
+        header .snb a:first-child {
+            border: 2px solid #fff;
+            line-height: 29px; width: 97px;
+            border-radius: 5px;
+            margin-right: 24px;
+        }
+        header .snb a:last-child {}
+        main {}
+        main .visual {
+            position: relative;
+        }
+        main .visual video {
+            width: 100%;
+        }
+        main .visual .visual_title {
+            color: #fff;
+            position: absolute; left: 755px; top: 234px;
+        }
+        main .visual .visual_title h2 {
+            font-size: 3.2rem; font-weight: 700;
+            margin-bottom: 30px;
+        }
+        main .visual .visual_title .start_link {
+            display: inline-block;
+            width: 160px; height: 54px;
+            line-height: 54px;
+            background-color: #000;
+            border-radius: 10px;
+        }
+        main .visual .visual_title .start_link:hover {
+            border-radius: 20px;
+        }
+        /* ===================== */
+        main .creater {
+            width: 1300px;
+            padding-top: 150px;
+            margin: 0 auto;
+            text-align: center;
+        }
+        main .creater h2 {
+            font-size: 3rem; font-weight: 700;
+        }
+        main .creater p {
+            font-size: 1.25rem;
+            line-height: 1.5;
+            margin: 55px 0;
+        }
+        main .creater span {}
+        main .creater span img {
+            width: 100%;
+        }
+        main .creater .studio {
+            width: 1300px;
+            display: flex;
+            flex-flow: row nowrap;
+        }
+        main .creater .studio dl {
+            margin-top: 55px;
+            width: calc(100% / 3);
+        }
+        main .creater .studio dl dt {
+            font-size: 2rem; font-weight: 700;
+            margin-bottom: 16px;
+        }
+        main .creater .studio dl dd {
+            font-size: 1.25rem;
+            line-height: 1.5;
+        }
+        /* ===================== */
+        @media screen and (max-width:1300px) {
+            header nav {display: none;}
+            main .visual video {width: 1300px;}
+        }
+        @media screen and (max-width:760px) {
+            header h1 {width: 225.75px;}
+            main .creater .studio {flex-flow: row wrap;}
+            main .creater .studio dl {
+                width: calc(100% / 2);
+            }
+            main .creater .studio dl:last-child {
+                width: 100%; margin-top: 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1><a href="#"><img src="./img/logo_zepeto_white.png" alt="zepeto"></a></h1>
+        <nav>
+            <a href="#">콘텐츠</a>
+            <a href="#">크리에이터 프로그램</a>
+            <a href="#">비즈니스</a>
+            <a href="#">가이드</a>
+            <a href="#">지원</a>
+        </nav>
+        <div class="snb">
+            <a href="#">콘텐츠 관리</a>
+            <a href="#"><img src="./img/bell-regular.svg" alt="알림 서비스"></a>
+        </div>
+    </header>
+    <div class="visual">
+        <video src="./img/video.mp4" autoplay muted loop></video>
+        <div class="visual_title">
+            <h1>상상하는 모든 것,<br>제페토 스튜디오에서</h1>
+            <a href="#">시작하기</a>
+        </div>
+    </div>
+</body>
+</html>
