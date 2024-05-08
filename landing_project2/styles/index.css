@@ -95,25 +95,111 @@ main .bg1 section > a {
     border-radius: 80px 0 80px 0;
 }
 /* -------------------------------2page */
-main .bg2 section {}
-main .bg2 section #quiz {}
-main .bg2 section #quiz #quiz_q {}
+main .bg2 section {
+    color: #fff;
+    height: 1085px;
+    position: relative;
+}
+main .bg2 section #quiz {
+}
+main .bg2 section #quiz #quiz_q {
+    padding-top: 70px;
+    float: left;
+    padding-left: 20px;
+}
 main .bg2 section #quiz #quiz_q dl {}
-main .bg2 section #quiz #quiz_q dl dt {}
-main .bg2 section #quiz #quiz_q dl dd {}
-main .bg2 section #quiz #quiz_q dl dd p {}
-main .bg2 section #quiz #quiz_q dl dd p span {}
-main .bg2 section #quiz #quiz_q dl dd .quiz_a {}
-main .bg2 section #quiz #quiz_q dl dd .quiz_a input {}
-main .bg2 section #quiz #quiz_q #check_answer {}
-main .bg2 section .text_b {}
-main .bg2 section .text_b p {}
-main .bg2 section .text_b .pinkbtn {}
+main .bg2 section #quiz #quiz_q dl dt {
+    display: inline-block;
+    font-size: 10.5rem; font-weight: 700;
+    color: #FA6462;
+    float: left;
+}
+main .bg2 section #quiz #quiz_q dl dd {
+    display: inline-block;
+    margin-top: 80px;
+    margin-left: 10px;
+}
+main .bg2 section #quiz #quiz_q dl dd p {
+    font-size: 3.813rem; font-weight: 700;
+}
+main .bg2 section #quiz #quiz_q dl dd p span {
+    font-weight: 700; color: #3A6FF2;
+}
+main .bg2 section #quiz #quiz_q dl dd .quiz_a {
+    display: flex;
+    flex-flow: row wrap;
+    font-size: 2.75rem;
+    width: 540px;
+    padding: 25px 0 58px 20px;
+}
+main .bg2 section #quiz #quiz_q dl dd .quiz_a input[name=quiz] {
+    display: none;
+}
+main .bg2 section #quiz #quiz_q dl dd .quiz_a label {
+    display: inline-block;
+    height: 2.75rem;
+    background-image: url(../img/quiz_unchecked.svg);
+    background-repeat: no-repeat;
+    padding-left: 40px;
+    line-height: 32px;
+    margin: 25px;
+}
+main .bg2 section #quiz #quiz_q dl dd .quiz_a input[name=quiz]:checked +label {
+    background-image: url(../img/quiz_checked.svg);}
+main .bg2 section #quiz #quiz_q #bg02_deco {
+    position: absolute;
+    width: 564px; height: 791.53px;
+    z-index: 500; right:27px; bottom: 0; 
+}
+main .bg2 section #quiz #quiz_q #check_answer {
+    display: inline-block;
+    width: 579px; line-height: 60px;
+    font-size: 1.5rem; font-weight: 500;
+    background-color: #000;
+    color: #cccccc;
+    border: none;
+    border-radius: 150px;
+    text-align: center;
+    margin-left: -330px;
+    margin-top: -80px;
+}
+main .bg2 section .text_b {
+    display: inline-block;
+    margin-top: 200px;
+    position: relative;
+}
+main .bg2 section .text_b p {
+    display: inline-block;
+    width: 530px;
+    font-size: 2.5rem; font-weight: 600;
+    line-height: 1.4;
+    position: absolute;
+    left: -160px; top: 0;
+    text-align: right;
+}
+main .bg2 section .text_b .pinkbtn::after {
+    content: '';
+    background-image: url(../img/download.svg);
+    background-repeat: no-repeat;
+    background-size: 40px;
+    width: 40px; height: 40px;
+    display: inline-block;
+    padding-left: 5px;}
+main .bg2 section .text_b .pinkbtn {
+    margin-top: 120px;
+    padding: 12px 60px;
+}
 /* -------------------------------3page */
 main .bg3 section {
     padding-top: 130px;
 }
-main .bg3 section .pinkbtn {}
+main .bg3 section .pinkbtn::after {
+    content: '';
+    background-image: url(../img/icon_pennib.svg);
+    background-repeat: no-repeat;
+    background-size: 32px;
+    width: 32px; height: 44px;
+    display: inline-block;}
 main .bg3 section #vd_int {
     display: inline-block;
     width: 900px;
@@ -342,7 +428,14 @@ main .bg11 section h2 span {
     font-weight: 700;
     color: #3A6FF2;
 }
-main .bg11 section .pinkbtn{}
+main .bg11 section .pinkbtn::after {
+    content: '';
+    background-image: url(../img/download.svg);
+    background-repeat: no-repeat;
+    background-size: 40px;
+    width: 30px; height: 40px;
+    display: inline-block;
+    padding-left: 5px;}
 
 /* -------------------------------12page */
 main .bg12 section {
