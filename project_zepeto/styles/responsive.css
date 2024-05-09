@@ -5,8 +5,14 @@
     header nav {display: none;}
     main .visual video {width: 1300px;}
     main .creater {width: 100%;}
+    main .world .bg3 {width: 100%;}
+    main .represen {width: 100%;}
+    main .represen .zepeto_repr li:last-child {
+        display: none;
+    }
+    main .represen .zepeto_repr {width: calc((100% / 4) - 10px);}
 } /* ~1300px */
-@media screen and (max-width:760px){
+@media screen and (max-width:760px) {
     header h1 {width: 225.75px;}
     main .creater .studio dl {
         width: calc(100% / 2);
@@ -21,4 +27,32 @@
     main .creater .studio {
         flex-flow: row wrap;
     }
+    main .world .bg3 .box {
+        width: 100%; height: 470px;
+        flex-flow: column;
+    }
+    main .world .bg3 .box dd {
+        width: 100%;
+        height: 150px;
+        padding: 0 50px;
+        display: flex;
+        flex-flow: row nowrap;
+        align-items: center;
+        justify-content: space-between;
+    }
+    main .world .bg3 .box dl dd p {
+        margin: 30px 0;
+        line-height: 1.7;
+    }
+    main .represen h2 {
+        font-size: 2rem;
+    }
+    main .represen p {font-size: 1.0rem;}
+    main .represen .zepeto_repr li:last-child(2) {
+        display: none;
+    }
+    main .represen .zepeto_repr li:last-child {
+        display: none;
+    }
+    main .represen .zepeto_repr {width: calc((100% / 3) - 10px);}
 } /* ~760px */
