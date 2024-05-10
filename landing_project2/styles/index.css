@@ -103,9 +103,9 @@ main .bg2 section {
 main .bg2 section #quiz {
 }
 main .bg2 section #quiz #quiz_q {
-    padding-top: 70px;
+    padding-top: 140px;
     float: left;
-    padding-left: 20px;
+    padding-left: 50px;
 }
 main .bg2 section #quiz #quiz_q dl {}
 main .bg2 section #quiz #quiz_q dl dt {
@@ -120,7 +120,7 @@ main .bg2 section #quiz #quiz_q dl dd {
     margin-left: 10px;
 }
 main .bg2 section #quiz #quiz_q dl dd p {
-    font-size: 3.813rem; font-weight: 700;
+    font-size: 2.5rem; font-weight: 700;
 }
 main .bg2 section #quiz #quiz_q dl dd p span {
     font-weight: 700; color: #3A6FF2;
@@ -128,7 +128,7 @@ main .bg2 section #quiz #quiz_q dl dd p span {
 main .bg2 section #quiz #quiz_q dl dd .quiz_a {
     display: flex;
     flex-flow: row wrap;
-    font-size: 2.75rem;
+    font-size: 1.25rem;
     width: 540px;
     padding: 25px 0 58px 20px;
 }
@@ -153,26 +153,26 @@ main .bg2 section #quiz #quiz_q #bg02_deco {
 }
 main .bg2 section #quiz #quiz_q #check_answer {
     display: inline-block;
-    width: 579px; line-height: 60px;
+    width: 579px; line-height: 50px;
     font-size: 1.5rem; font-weight: 500;
     background-color: #000;
     color: #cccccc;
     border: none;
     border-radius: 150px;
     text-align: center;
-    margin-left: -330px;
+    margin-left: -30px;
     margin-top: -80px;
 }
 main .bg2 section .text_b {
     display: inline-block;
-    margin-top: 200px;
+    margin-top: 240px;
     position: relative;
 }
 main .bg2 section .text_b p {
     display: inline-block;
     width: 530px;
-    font-size: 2.5rem; font-weight: 600;
-    line-height: 1.4;
+    font-size: 2rem; font-weight: 600;
+    line-height: 1.5;
     position: absolute;
     left: -160px; top: 0;
     text-align: right;
@@ -186,7 +186,7 @@ main .bg2 section .text_b .pinkbtn::after {
     display: inline-block;
     padding-left: 5px;}
 main .bg2 section .text_b .pinkbtn {
-    margin-top: 120px;
+    margin-top: 105px;
     padding: 12px 60px;
 }
 /* -------------------------------3page */
@@ -204,7 +204,8 @@ main .bg3 section #vd_int {
     display: inline-block;
     width: 900px;
     border-left: 10px solid #3A6FF2;
-    font-size: 2rem; text-align: left;
+    font-size: 1.8rem; text-align: left;
+    line-height: 1.4;
     padding: 10px 0 10px 16px ;
     background-color: #fff;
     margin: 34px 0 48px;
@@ -235,12 +236,13 @@ main .bg4 section .text_b p:first-child {
     padding-top: 20px;
 }
 main .bg4 section .text_b p {
-    font-size: 3rem;
-    line-height: 1.5;
+    font-size: 2.5rem;
+    line-height: 1.7;
     font-weight: 500;
 }
 main .bg4 section .text_b p em {
     font-size: 8rem; color: #FA6462;
+    line-height: 1.4;
     font-weight: 900;
 }
 
@@ -267,30 +269,30 @@ main .bg5 section p em {
 /* -------------------------------6page */
 main .bg6 section {
     color: #fff;
-    padding-top: 132px;
+    padding-top: 152px;
     padding-right: 692px;
     text-align: right;
 }
 main .bg6 section .title {
-    margin: 0 0 50px;
+    margin: 0 0 60px;
 }
 main .bg6 section .title p {
-    font-size: 3.37rem;
+    font-size: 2.8rem;
     font-weight: 600;
 }
 main .bg6 section .title p em {
-    font-size: 6rem;
+    font-size: 5rem;
     font-weight: 700;
     color: #3A6FF2;
 }
 main .bg6 section .text_b {
     display: inline-block;
-    padding: 30px 10px 10px 10px;
+    padding: 40px 10px 10px 10px;
     width: 450px;
     border-top: 3px solid #3A6FF2;
 }
 main .bg6 section .text_b p {
-    font-size: 2.5rem; font-weight: 300;
+    font-size: 2rem; font-weight: 300;
     line-height: 58px;
 }
 main .bg6 section .text_b .img {
@@ -315,25 +317,25 @@ main .bg7 section span {
 main .bg7 section span img {}
 main .bg7 section dl {
     display: inline-block;
-    padding-top: 189px;
+    padding-top: 200px;
     padding-right: 70px;
     float: right;
 }
 main .bg7 section dl dt {
-    margin: 0 0 60px;
-    font-size: 6rem;
-    line-height: 100px;
+    margin: 20px 0 60px;
+    font-size: 4rem;
+    line-height: 1.2;
     font-weight: 700;
     color: #FA6462;
 }
 main .bg7 section dl dd {
     display: inline-block;
-    padding: 40px 10px 10px 10px;
+    padding: 60px 10px 10px 10px;
     width: 550px;
     letter-spacing: -0.2px;
     border-top: 3px solid #FA6462;
-    font-size: 2.5rem; font-weight: 500;
-    line-height: 58px;
+    font-size: 2rem; font-weight: 500;
+    line-height: 1.8;
     text-align: left;
 }
 
@@ -342,15 +344,15 @@ main .bg8 section {
     color: #fff;
 }
 main .bg8 section h2 {
-    font-size: 4rem; font-weight: 700;
+    font-size: 3rem; font-weight: 700;
     /* padding: 24px; */
-    padding: 60px 0 30px;
+    padding: 100px 0 20px;
     border-bottom: 3px solid #3A6FF2;
 }
 main .bg8 section p {
-    margin-top: 30px;
-    font-size: 2rem; font-weight: 500;
-    line-height: 42px;
+    margin-top: 20px;
+    font-size: 1.5rem; font-weight: 400;
+    line-height: 1.6;
 }
 
 /* -------------------------------9page */
@@ -368,8 +370,8 @@ main .bg9 section h2 {
 }
 main .bg9 section p {
     padding-top: 30px;
-    font-size: 2.5rem; font-weight: 500;
-    line-height: 58px;
+    font-size: 2rem; font-weight: 500;
+    line-height: 1.8;
 }
 
 /* -------------------------------10page */
@@ -387,28 +389,28 @@ main .bg10 section .text_b {
     flex-flow: column nowrap;
     float: right;
     text-align: left;
-    padding: 128px 0 0 10px;
+    padding: 164px 0 0 10px;
 }
 main .bg10 section .text_b h2 {
     display: inline-block;
     width: 450px;
     line-height: 1.5;
-    font-size: 3rem; color: #fff;
+    font-size: 2.5rem; color: #fff;
     font-weight: 600;
-    padding-bottom: 26px;
+    padding-bottom: 40px;
     border-bottom: 3px solid #A89BF9;
 }
 main .bg10 section .text_b h2 em {
-    font-size: 4.5rem; font-weight: 700;
-    color: #A89BF9;
+    font-size: 3.8rem; font-weight: 700;
+    color: #A89BF9; line-height: 1.2;
 }
 main .bg10 section .text_b p {
     display: inline-block;
     width: 620px;
     color: #fff;
-    padding-top: 30px;
-    font-size: 1.5rem; font-weight: 500;
-    line-height: 58px;
+    padding-top: 40px;
+    font-size: 1.5rem; font-weight: 400;
+    line-height: 1.8;
 }
 
 /* -------------------------------11page */
