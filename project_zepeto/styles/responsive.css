@@ -11,6 +11,9 @@
         display: none;
     }
     main .represen .zepeto_repr {width: calc((100% / 4) - 10px);}
+    .f_bg footer {
+        padding: 0 16px;
+    }
 } /* ~1300px */
 @media screen and (max-width:760px) {
     header h1 {width: 225.75px;}
@@ -55,4 +58,11 @@
         display: none;
     }
     main .represen .zepeto_repr {width: calc((100% / 3) - 10px);}
+    .f_bg footer .f_top {
+        flex-flow: column wrap;
+        float: left;
+    }
+    .f_bg footer .f_menu {
+        padding: 80px 0 10px;
+    }
 } /* ~760px */

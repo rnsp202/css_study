@@ -190,3 +190,44 @@ main .represen .zepeto_repr li {
 main .represen .zepeto_repr li img {
     width: 240px;
 }
+/* =====================footer */
+.f_bg {
+    width: 100%; height: 249px;
+    background-color: #F5F5F5;
+}
+.f_bg footer {
+    width: 1260px ; margin: 0 auto;
+    padding: 80px 16px;
+}
+.f_bg footer .f_top {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    margin-bottom: 25px;
+}
+.f_bg footer .f_top .f_menu {}
+.f_bg footer .f_top .f_menu a {
+    margin-right: 24px;
+}
+.f_bg footer .f_top .lang_sns {}
+.f_bg footer .f_top .lang_sns #lang_select {
+    appearance: none;
+    padding: 0 10px; height: 25px;
+    border: 1px solid #000; border-radius: 5px;
+    background-image: url(../img/);
+    background-repeat: no-repeat;
+    background-size: 14px;
+    background-position-x: 5px;
+    background-position-y: 65px;
+}
+.f_bg footer .f_top .lang_sns #lang_select option {}
+.f_bg footer .f_top .lang_sns a {
+    margin-left: 12px;
+}
+.f_bg footer .f_top .lang_sns a img {
+    size: 24px; width: 24px; height: 24px;
+}
+.f_bg footer .copy {
+    width: 100%;
+    float: left;
+}
