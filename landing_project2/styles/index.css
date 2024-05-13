@@ -129,8 +129,8 @@ main .bg2 section #quiz #quiz_q dl dd .quiz_a {
     display: flex;
     flex-flow: row wrap;
     font-size: 1.25rem;
-    width: 540px;
-    padding: 25px 0 58px 20px;
+    width: 700px;
+    padding: 25px 0 38px 20px;
 }
 main .bg2 section #quiz #quiz_q dl dd .quiz_a input[name=quiz] {
     display: none;
@@ -142,7 +142,7 @@ main .bg2 section #quiz #quiz_q dl dd .quiz_a label {
     background-repeat: no-repeat;
     padding-left: 40px;
     line-height: 32px;
-    margin: 25px;
+    margin: 20px 10px;
 }
 main .bg2 section #quiz #quiz_q dl dd .quiz_a input[name=quiz]:checked +label {
     background-image: url(../img/quiz_checked.svg);}
@@ -153,19 +153,19 @@ main .bg2 section #quiz #quiz_q #bg02_deco {
 }
 main .bg2 section #quiz #quiz_q #check_answer {
     display: inline-block;
-    width: 579px; line-height: 50px;
+    width: 500px; line-height: 50px;
     font-size: 1.5rem; font-weight: 500;
     background-color: #000;
     color: #cccccc;
     border: none;
     border-radius: 150px;
     text-align: center;
-    margin-left: -30px;
+    /* margin-left: -10px; */
     margin-top: -80px;
 }
 main .bg2 section .text_b {
     display: inline-block;
-    margin-top: 240px;
+    margin-top: 370px;
     position: relative;
 }
 main .bg2 section .text_b p {
