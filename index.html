@@ -1,64 +1,62 @@
 <!DOCTYPE html>
 <html lang="ko">
 <head>
-    <meta name="keywords" content="">
-    <meta name="description" content="">
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>박유진 | 프로젝트 모음</title>
-    <link rel="stylesheet" href="./styles/reset.css">
+    <title>나이키</title>
+    <link rel="stylesheet" href="reset.css">
     <style>
-        .bg {
-            height: 400px; background-color: #8BB5F4;
-            padding-top: 120px;
-            letter-spacing: -0.4px;
-            text-align: center;
+        header, #v_c {width:1400px; margin:0 auto;}
+        header img {width:100%;}
+        #visual {
+            background:url(images/nike_bg.jpg) no-repeat center; 
+            width: 1400px; height: 750px; margin:0 auto;
+            background-size: auto 100%;
+            position:relative; overflow:hidden;
         }
-        .bg .lang {
-            font-size: 30px;
-            margin-bottom: 8px;
+        #v_img {
+            position: absolute;
+            right: 0px;
+            bottom: 150px;
+            
+            transform: rotate(15deg);
         }
-        .bg h1 {
-            font-size: 40px;
-            color: white;
-            font-weight: 700;
+        #v_btn {
+            position:absolute; left:0; bottom:50px; width:100%;
+            display:flex; justify-content: center;
         }
-        .bg .date {
-            font-size: 20px;
-            margin-top: 32px;
+        #v_btn a:hover {transform: rotate(15deg);}
+        #v_btn a {
+            width:100px; margin:0 10px; 
+            display:flex; align-items:flex-end;
+            transform: rotate(0); transform-origin: right bottom;
+            transition: transform 0.3s;
         }
-        .list {
-            padding: 10px;
-            width: 630px; margin: 20px auto 0;
-            display: flex;
-            flex-flow: row wrap;
-        }
-        .list a {
-            width: calc((100% - 10px) / 2); border-bottom: 1px solid #000;
-            text-align: center; padding: 16px 12px;
-        }
-        .list a:first-child {
-            margin-right: 10px;
-        }
+        #v_btn a img {width:100%; }
+        #_btn a img:hover {}
     </style>
+    <script>
+        window.onload=function(){
+
+            
+
+        }//e:onload
+    </script>
 </head>
 <body>
-    <div class="bg">
-        <p class="lang">HTML, CSS</p>
-        <h1>박유진 프로젝트</h1>
-        <p class="date">24.03.19 ~ 24.08.02.</p>
+    <div id="wrap">
+        <header><img src="images/nike_header.jpg" alt=""></header>
     </div>
-    <div class="list">
-        <a href="./project_spc/index.html" target="_blank">SPC 삼립 24/04/17</a>
-        <a href="./landing_project1/index.html" target="_blank">북극곰-랜딩페이지 24/04/30</a>
-        <a href="./naver_login/index.html" target="_blank">네이버로그인 24/05/02</a>
-        <a href="./project_form/kurly_join.html">마켓컬리 로그인</a>
-        <a href="./landing_project2/index.html">텀블벅-랜딩페이지</a>
-        <a href="./project_zepeto/index.html">제페토</a>
-        <a href="#">7</a>
-        <a href="#">8</a>
-        <a href="#">9</a>
-        <a href="#">10</a>
+    <div id="visual">
+        <div id="v_img">
+            <img src="images/nike1.png" alt="" id="nike_img">
+        </div>
+        <div id="v_btn">
+            <a href="#"><img src="images/nike1.png" alt=""></a>
+            <a href="#"><img src="images/nike2.png" alt=""></a>
+            <a href="#"><img src="images/nike3.png" alt=""></a>
+        </div>
     </div>
 </body>
 </html>
